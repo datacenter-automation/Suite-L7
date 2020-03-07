@@ -1,0 +1,3674 @@
+{
+  "errors": [],
+  "warnings": [],
+  "outputPath": "/home/alexrenner/Code/files/Suite-L7/public",
+  "assetsByChunkName": {
+    "/js/app": [
+      "/js/app.js",
+      "/css/app.css"
+    ],
+    "/js/manifest": "/js/manifest.js",
+    "/js/vendor": "/js/vendor.js"
+  },
+  "assets": [
+    {
+      "name": "/css/app.css",
+      "size": 144284,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "/js/app"
+      ],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/fonts/FontAwesome.otf",
+      "size": 134808,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/fonts/Material-Design-Iconic-Font.eot",
+      "size": 42495,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/fonts/Material-Design-Iconic-Font.svg",
+      "size": 239073,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/fonts/Material-Design-Iconic-Font.ttf",
+      "size": 99212,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/fonts/Material-Design-Iconic-Font.woff",
+      "size": 50312,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/fonts/Material-Design-Iconic-Font.woff2",
+      "size": 38384,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/fonts/Simple-Line-Icons.eot",
+      "size": 54266,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/fonts/Simple-Line-Icons.svg",
+      "size": 239045,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/fonts/Simple-Line-Icons.ttf",
+      "size": 54056,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/fonts/Simple-Line-Icons.woff",
+      "size": 81332,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/fonts/Simple-Line-Icons.woff2",
+      "size": 30064,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/fonts/fontawesome-webfont.eot",
+      "size": 165742,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/fonts/fontawesome-webfont.svg",
+      "size": 444379,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/fonts/fontawesome-webfont.ttf",
+      "size": 165548,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/fonts/fontawesome-webfont.woff",
+      "size": 98024,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/fonts/fontawesome-webfont.woff2",
+      "size": 77160,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/js/app.js",
+      "size": 169335,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "/js/app"
+      ],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/js/app.js.LICENSE.txt",
+      "size": 1839,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/js/manifest.js",
+      "size": 1493,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "/js/manifest"
+      ],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/js/vendor.js",
+      "size": 186344,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "/js/vendor"
+      ],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "/js/vendor.js.LICENSE.txt",
+      "size": 559,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "service-worker.js",
+      "size": 1357,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "workbox-7c85bfc1.js",
+      "size": 7734,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "namedChunkGroups": {
+    "/js/app": {
+      "chunks": [
+        1,
+        2,
+        0
+      ],
+      "assets": [
+        "/js/manifest.js",
+        "/js/vendor.js",
+        "/js/app.js",
+        "/css/app.css"
+      ],
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": true
+    },
+    "/js/vendor": {
+      "chunks": [
+        2
+      ],
+      "assets": [
+        "/js/vendor.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+      "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+      "index": 0,
+      "index2": 40,
+      "size": 40,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 0,
+        "building": 6
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0
+    },
+    {
+      "id": 1,
+      "identifier": "multi jquery vue",
+      "name": "multi jquery vue",
+      "index": 41,
+      "index2": 45,
+      "size": 40,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 0,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0
+    },
+    {
+      "id": "2SVd",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/helpers/isAbsoluteURL.js",
+      "name": "./node_modules/axios/lib/helpers/isAbsoluteURL.js",
+      "index": 27,
+      "index2": 17,
+      "size": 563,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/buildFullPath.js",
+      "issuerId": "g7np",
+      "issuerName": "./node_modules/axios/lib/core/buildFullPath.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        },
+        {
+          "id": "JEQr",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/defaults.js",
+          "name": "./node_modules/axios/lib/defaults.js",
+          "profile": {
+            "factory": 20,
+            "building": 26,
+            "dependencies": 30
+          }
+        },
+        {
+          "id": "tQ2B",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/adapters/xhr.js",
+          "name": "./node_modules/axios/lib/adapters/xhr.js",
+          "profile": {
+            "factory": 30,
+            "building": 14,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "g7np",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/buildFullPath.js",
+          "name": "./node_modules/axios/lib/core/buildFullPath.js",
+          "profile": {
+            "factory": 22,
+            "building": 12,
+            "dependencies": 0
+          }
+        }
+      ],
+      "profile": {
+        "factory": 20,
+        "building": 11
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 8
+    },
+    {
+      "id": "5oMp",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/helpers/combineURLs.js",
+      "name": "./node_modules/axios/lib/helpers/combineURLs.js",
+      "index": 28,
+      "index2": 18,
+      "size": 380,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/buildFullPath.js",
+      "issuerId": "g7np",
+      "issuerName": "./node_modules/axios/lib/core/buildFullPath.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        },
+        {
+          "id": "JEQr",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/defaults.js",
+          "name": "./node_modules/axios/lib/defaults.js",
+          "profile": {
+            "factory": 20,
+            "building": 26,
+            "dependencies": 30
+          }
+        },
+        {
+          "id": "tQ2B",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/adapters/xhr.js",
+          "name": "./node_modules/axios/lib/adapters/xhr.js",
+          "profile": {
+            "factory": 30,
+            "building": 14,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "g7np",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/buildFullPath.js",
+          "name": "./node_modules/axios/lib/core/buildFullPath.js",
+          "profile": {
+            "factory": 22,
+            "building": 12,
+            "dependencies": 0
+          }
+        }
+      ],
+      "profile": {
+        "factory": 20,
+        "building": 11
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 8
+    },
+    {
+      "id": "8L3F",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/popper.js/dist/esm/popper.js",
+      "name": "./node_modules/popper.js/dist/esm/popper.js",
+      "index": 6,
+      "index2": 3,
+      "size": 88482,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+      "issuerId": "9Wh1",
+      "issuerName": "./resources/js/bootstrap.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        }
+      ],
+      "profile": {
+        "factory": 271,
+        "building": 177,
+        "dependencies": 2
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module uses injected variables (global)"
+      ],
+      "depth": 3
+    },
+    {
+      "id": "8oxB",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/process/browser.js",
+      "name": "./node_modules/process/browser.js",
+      "index": 20,
+      "index2": 12,
+      "size": 5418,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        2
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/setimmediate/setImmediate.js",
+      "issuerId": "YBdB",
+      "issuerName": "./node_modules/setimmediate/setImmediate.js",
+      "issuerPath": [
+        {
+          "id": 1,
+          "identifier": "multi jquery vue",
+          "name": "multi jquery vue",
+          "profile": {
+            "factory": 0,
+            "building": 0
+          }
+        },
+        {
+          "id": "XuX8",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/vue/dist/vue.common.js",
+          "name": "./node_modules/vue/dist/vue.common.js",
+          "profile": {
+            "factory": 785,
+            "building": 393
+          }
+        },
+        {
+          "id": "INkZ",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/vue/dist/vue.common.prod.js",
+          "name": "./node_modules/vue/dist/vue.common.prod.js",
+          "profile": {
+            "factory": 24,
+            "building": 363
+          }
+        },
+        {
+          "id": "URgk",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/timers-browserify/main.js",
+          "name": "./node_modules/timers-browserify/main.js",
+          "profile": {
+            "factory": 440,
+            "building": 7,
+            "dependencies": 1
+          }
+        },
+        {
+          "id": "YBdB",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/setimmediate/setImmediate.js",
+          "name": "./node_modules/setimmediate/setImmediate.js",
+          "profile": {
+            "factory": 33,
+            "building": 18,
+            "dependencies": 0
+          }
+        }
+      ],
+      "profile": {
+        "factory": 8,
+        "building": 239
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 5
+    },
+    {
+      "id": "9Wh1",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+      "name": "./resources/js/bootstrap.js",
+      "index": 2,
+      "index2": 33,
+      "size": 1238,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+      "issuerId": "bUC5",
+      "issuerName": "./resources/js/app.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        }
+      ],
+      "profile": {
+        "factory": 761,
+        "building": 20,
+        "dependencies": 2
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "id": "9rSQ",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/InterceptorManager.js",
+      "name": "./node_modules/axios/lib/core/InterceptorManager.js",
+      "index": 15,
+      "index2": 9,
+      "size": 1251,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/Axios.js",
+      "issuerId": "CgaS",
+      "issuerName": "./node_modules/axios/lib/core/Axios.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        },
+        {
+          "id": "CgaS",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/Axios.js",
+          "name": "./node_modules/axios/lib/core/Axios.js",
+          "profile": {
+            "factory": 20,
+            "building": 26,
+            "dependencies": 30
+          }
+        }
+      ],
+      "profile": {
+        "factory": 23,
+        "building": 12,
+        "dependencies": 2
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 6
+    },
+    {
+      "id": "9tPo",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/style-loader/lib/urls.js",
+      "name": "./node_modules/style-loader/lib/urls.js",
+      "index": 40,
+      "index2": 37,
+      "size": 3013,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/style-loader/lib/addStyles.js",
+      "issuerId": "aET+",
+      "issuerName": "./node_modules/style-loader/lib/addStyles.js",
+      "issuerPath": [
+        {
+          "id": "pyCd",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/home/alexrenner/Code/files/Suite-L7/node_modules/style-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/css-loader/index.js??ref--5-2!/home/alexrenner/Code/files/Suite-L7/node_modules/postcss-loader/src/index.js??postcss0!/home/alexrenner/Code/files/Suite-L7/node_modules/sass-loader/dist/cjs.js??ref--5-4!/home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "./resources/sass/app.scss"
+        },
+        {
+          "id": "aET+",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/style-loader/lib/addStyles.js",
+          "name": "./node_modules/style-loader/lib/addStyles.js",
+          "profile": {
+            "factory": 266,
+            "building": 4284
+          }
+        }
+      ],
+      "profile": {
+        "factory": 762,
+        "building": 14
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "id": "CgaS",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/Axios.js",
+      "name": "./node_modules/axios/lib/core/Axios.js",
+      "index": 13,
+      "index2": 27,
+      "size": 2615,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+      "issuerId": "zuR4",
+      "issuerName": "./node_modules/axios/lib/axios.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 20,
+        "building": 26,
+        "dependencies": 30
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 5
+    },
+    {
+      "id": "DfZB",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/helpers/spread.js",
+      "name": "./node_modules/axios/lib/helpers/spread.js",
+      "index": 35,
+      "index2": 30,
+      "size": 564,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+      "issuerId": "zuR4",
+      "issuerName": "./node_modules/axios/lib/axios.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 20,
+        "building": 26,
+        "dependencies": 30
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 5
+    },
+    {
+      "id": "EVdn",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/jquery/dist/jquery.js",
+      "name": "./node_modules/jquery/dist/jquery.js",
+      "index": 7,
+      "index2": 4,
+      "size": 280364,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "multi jquery vue",
+      "issuerId": 1,
+      "issuerName": "multi jquery vue",
+      "issuerPath": [
+        {
+          "id": 1,
+          "identifier": "multi jquery vue",
+          "name": "multi jquery vue",
+          "profile": {
+            "factory": 0,
+            "building": 0
+          }
+        }
+      ],
+      "profile": {
+        "factory": 785,
+        "building": 393
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": "HSsa",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/helpers/bind.js",
+      "name": "./node_modules/axios/lib/helpers/bind.js",
+      "index": 12,
+      "index2": 6,
+      "size": 256,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+      "issuerId": "zuR4",
+      "issuerName": "./node_modules/axios/lib/axios.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 20,
+        "building": 26,
+        "dependencies": 30
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 5
+    },
+    {
+      "id": "I1BE",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/css-loader/lib/css-base.js",
+      "name": "./node_modules/css-loader/lib/css-base.js",
+      "index": 38,
+      "index2": 35,
+      "size": 2260,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/css-loader/index.js??ref--5-2!/home/alexrenner/Code/files/Suite-L7/node_modules/postcss-loader/src/index.js??postcss0!/home/alexrenner/Code/files/Suite-L7/node_modules/sass-loader/dist/cjs.js??ref--5-4!/home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+      "issuerId": "lIx/",
+      "issuerName": "./node_modules/css-loader??ref--5-2!./node_modules/postcss-loader/src??postcss0!./node_modules/sass-loader/dist/cjs.js??ref--5-4!./resources/sass/app.scss",
+      "issuerPath": [
+        {
+          "id": "pyCd",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/home/alexrenner/Code/files/Suite-L7/node_modules/style-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/css-loader/index.js??ref--5-2!/home/alexrenner/Code/files/Suite-L7/node_modules/postcss-loader/src/index.js??postcss0!/home/alexrenner/Code/files/Suite-L7/node_modules/sass-loader/dist/cjs.js??ref--5-4!/home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "./resources/sass/app.scss"
+        },
+        {
+          "id": "lIx/",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/css-loader/index.js??ref--5-2!/home/alexrenner/Code/files/Suite-L7/node_modules/postcss-loader/src/index.js??postcss0!/home/alexrenner/Code/files/Suite-L7/node_modules/sass-loader/dist/cjs.js??ref--5-4!/home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "./node_modules/css-loader??ref--5-2!./node_modules/postcss-loader/src??postcss0!./node_modules/sass-loader/dist/cjs.js??ref--5-4!./resources/sass/app.scss",
+          "profile": {
+            "factory": 266,
+            "building": 4284
+          }
+        }
+      ],
+      "profile": {
+        "factory": 2,
+        "building": 2
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "id": "INkZ",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/vue/dist/vue.common.prod.js",
+      "name": "./node_modules/vue/dist/vue.common.prod.js",
+      "index": 43,
+      "index2": 43,
+      "size": 93504,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/vue/dist/vue.common.js",
+      "issuerId": "XuX8",
+      "issuerName": "./node_modules/vue/dist/vue.common.js",
+      "issuerPath": [
+        {
+          "id": 1,
+          "identifier": "multi jquery vue",
+          "name": "multi jquery vue",
+          "profile": {
+            "factory": 0,
+            "building": 0
+          }
+        },
+        {
+          "id": "XuX8",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/vue/dist/vue.common.js",
+          "name": "./node_modules/vue/dist/vue.common.js",
+          "profile": {
+            "factory": 785,
+            "building": 393
+          }
+        }
+      ],
+      "profile": {
+        "factory": 24,
+        "building": 363
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "id": "JEQr",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/defaults.js",
+      "name": "./node_modules/axios/lib/defaults.js",
+      "index": 19,
+      "index2": 24,
+      "size": 2542,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+      "issuerId": "zuR4",
+      "issuerName": "./node_modules/axios/lib/axios.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 20,
+        "building": 26,
+        "dependencies": 30
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 5
+    },
+    {
+      "id": "LYNF",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/createError.js",
+      "name": "./node_modules/axios/lib/core/createError.js",
+      "index": 24,
+      "index2": 15,
+      "size": 625,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/adapters/xhr.js",
+      "issuerId": "tQ2B",
+      "issuerName": "./node_modules/axios/lib/adapters/xhr.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        },
+        {
+          "id": "JEQr",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/defaults.js",
+          "name": "./node_modules/axios/lib/defaults.js",
+          "profile": {
+            "factory": 20,
+            "building": 26,
+            "dependencies": 30
+          }
+        },
+        {
+          "id": "tQ2B",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/adapters/xhr.js",
+          "name": "./node_modules/axios/lib/adapters/xhr.js",
+          "profile": {
+            "factory": 30,
+            "building": 14,
+            "dependencies": 2
+          }
+        }
+      ],
+      "profile": {
+        "factory": 22,
+        "building": 12,
+        "dependencies": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 7
+    },
+    {
+      "id": "Lmem",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/cancel/isCancel.js",
+      "name": "./node_modules/axios/lib/cancel/isCancel.js",
+      "index": 18,
+      "index2": 11,
+      "size": 102,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+      "issuerId": "zuR4",
+      "issuerName": "./node_modules/axios/lib/axios.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 20,
+        "building": 26,
+        "dependencies": 30
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 5
+    },
+    {
+      "id": "LvDl",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/lodash/lodash.js",
+      "name": "./node_modules/lodash/lodash.js",
+      "index": 3,
+      "index2": 2,
+      "size": 540512,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+      "issuerId": "9Wh1",
+      "issuerName": "./resources/js/bootstrap.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        }
+      ],
+      "profile": {
+        "factory": 271,
+        "building": 177,
+        "dependencies": 2
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "id": "MLWZ",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/helpers/buildURL.js",
+      "name": "./node_modules/axios/lib/helpers/buildURL.js",
+      "index": 14,
+      "index2": 8,
+      "size": 1671,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/Axios.js",
+      "issuerId": "CgaS",
+      "issuerName": "./node_modules/axios/lib/core/Axios.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        },
+        {
+          "id": "CgaS",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/Axios.js",
+          "name": "./node_modules/axios/lib/core/Axios.js",
+          "profile": {
+            "factory": 20,
+            "building": 26,
+            "dependencies": 30
+          }
+        }
+      ],
+      "profile": {
+        "factory": 23,
+        "building": 12,
+        "dependencies": 2
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 6
+    },
+    {
+      "id": "OH9c",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/enhanceError.js",
+      "name": "./node_modules/axios/lib/core/enhanceError.js",
+      "index": 25,
+      "index2": 14,
+      "size": 1042,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/createError.js",
+      "issuerId": "LYNF",
+      "issuerName": "./node_modules/axios/lib/core/createError.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        },
+        {
+          "id": "JEQr",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/defaults.js",
+          "name": "./node_modules/axios/lib/defaults.js",
+          "profile": {
+            "factory": 20,
+            "building": 26,
+            "dependencies": 30
+          }
+        },
+        {
+          "id": "tQ2B",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/adapters/xhr.js",
+          "name": "./node_modules/axios/lib/adapters/xhr.js",
+          "profile": {
+            "factory": 30,
+            "building": 14,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "LYNF",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/createError.js",
+          "name": "./node_modules/axios/lib/core/createError.js",
+          "profile": {
+            "factory": 22,
+            "building": 12,
+            "dependencies": 0
+          }
+        }
+      ],
+      "profile": {
+        "factory": 18,
+        "building": 10
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 8
+    },
+    {
+      "id": "OTTw",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/helpers/isURLSameOrigin.js",
+      "name": "./node_modules/axios/lib/helpers/isURLSameOrigin.js",
+      "index": 30,
+      "index2": 21,
+      "size": 2305,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/adapters/xhr.js",
+      "issuerId": "tQ2B",
+      "issuerName": "./node_modules/axios/lib/adapters/xhr.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        },
+        {
+          "id": "JEQr",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/defaults.js",
+          "name": "./node_modules/axios/lib/defaults.js",
+          "profile": {
+            "factory": 20,
+            "building": 26,
+            "dependencies": 30
+          }
+        },
+        {
+          "id": "tQ2B",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/adapters/xhr.js",
+          "name": "./node_modules/axios/lib/adapters/xhr.js",
+          "profile": {
+            "factory": 30,
+            "building": 14,
+            "dependencies": 2
+          }
+        }
+      ],
+      "profile": {
+        "factory": 22,
+        "building": 12,
+        "dependencies": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 7
+    },
+    {
+      "id": "Rn+g",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/settle.js",
+      "name": "./node_modules/axios/lib/core/settle.js",
+      "index": 23,
+      "index2": 16,
+      "size": 686,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/adapters/xhr.js",
+      "issuerId": "tQ2B",
+      "issuerName": "./node_modules/axios/lib/adapters/xhr.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        },
+        {
+          "id": "JEQr",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/defaults.js",
+          "name": "./node_modules/axios/lib/defaults.js",
+          "profile": {
+            "factory": 20,
+            "building": 26,
+            "dependencies": 30
+          }
+        },
+        {
+          "id": "tQ2B",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/adapters/xhr.js",
+          "name": "./node_modules/axios/lib/adapters/xhr.js",
+          "profile": {
+            "factory": 30,
+            "building": 14,
+            "dependencies": 2
+          }
+        }
+      ],
+      "profile": {
+        "factory": 22,
+        "building": 12,
+        "dependencies": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 7
+    },
+    {
+      "id": "SYky",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/bootstrap/dist/js/bootstrap.js",
+      "name": "./node_modules/bootstrap/dist/js/bootstrap.js",
+      "index": 8,
+      "index2": 5,
+      "size": 135079,
+      "cacheable": true,
+      "built": true,
+      "optional": true,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+      "issuerId": "9Wh1",
+      "issuerName": "./resources/js/bootstrap.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        }
+      ],
+      "profile": {
+        "factory": 271,
+        "building": 177,
+        "dependencies": 2
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "id": "SntB",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/mergeConfig.js",
+      "name": "./node_modules/axios/lib/core/mergeConfig.js",
+      "index": 32,
+      "index2": 26,
+      "size": 2410,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+      "issuerId": "zuR4",
+      "issuerName": "./node_modules/axios/lib/axios.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 20,
+        "building": 26,
+        "dependencies": 30
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 5
+    },
+    {
+      "id": "URgk",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/timers-browserify/main.js",
+      "name": "./node_modules/timers-browserify/main.js",
+      "index": 44,
+      "index2": 42,
+      "size": 2022,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/vue/dist/vue.common.prod.js",
+      "issuerId": "INkZ",
+      "issuerName": "./node_modules/vue/dist/vue.common.prod.js",
+      "issuerPath": [
+        {
+          "id": 1,
+          "identifier": "multi jquery vue",
+          "name": "multi jquery vue",
+          "profile": {
+            "factory": 0,
+            "building": 0
+          }
+        },
+        {
+          "id": "XuX8",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/vue/dist/vue.common.js",
+          "name": "./node_modules/vue/dist/vue.common.js",
+          "profile": {
+            "factory": 785,
+            "building": 393
+          }
+        },
+        {
+          "id": "INkZ",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/vue/dist/vue.common.prod.js",
+          "name": "./node_modules/vue/dist/vue.common.prod.js",
+          "profile": {
+            "factory": 24,
+            "building": 363
+          }
+        }
+      ],
+      "profile": {
+        "factory": 440,
+        "building": 7,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "id": "UnBK",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/dispatchRequest.js",
+      "name": "./node_modules/axios/lib/core/dispatchRequest.js",
+      "index": 16,
+      "index2": 25,
+      "size": 1934,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/Axios.js",
+      "issuerId": "CgaS",
+      "issuerName": "./node_modules/axios/lib/core/Axios.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        },
+        {
+          "id": "CgaS",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/Axios.js",
+          "name": "./node_modules/axios/lib/core/Axios.js",
+          "profile": {
+            "factory": 20,
+            "building": 26,
+            "dependencies": 30
+          }
+        }
+      ],
+      "profile": {
+        "factory": 23,
+        "building": 12,
+        "dependencies": 2
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 6
+    },
+    {
+      "id": "XuX8",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/vue/dist/vue.common.js",
+      "name": "./node_modules/vue/dist/vue.common.js",
+      "index": 42,
+      "index2": 44,
+      "size": 157,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "multi jquery vue",
+      "issuerId": 1,
+      "issuerName": "multi jquery vue",
+      "issuerPath": [
+        {
+          "id": 1,
+          "identifier": "multi jquery vue",
+          "name": "multi jquery vue",
+          "profile": {
+            "factory": 0,
+            "building": 0
+          }
+        }
+      ],
+      "profile": {
+        "factory": 785,
+        "building": 393
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": "YBdB",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/setimmediate/setImmediate.js",
+      "name": "./node_modules/setimmediate/setImmediate.js",
+      "index": 45,
+      "index2": 41,
+      "size": 6475,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/timers-browserify/main.js",
+      "issuerId": "URgk",
+      "issuerName": "./node_modules/timers-browserify/main.js",
+      "issuerPath": [
+        {
+          "id": 1,
+          "identifier": "multi jquery vue",
+          "name": "multi jquery vue",
+          "profile": {
+            "factory": 0,
+            "building": 0
+          }
+        },
+        {
+          "id": "XuX8",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/vue/dist/vue.common.js",
+          "name": "./node_modules/vue/dist/vue.common.js",
+          "profile": {
+            "factory": 785,
+            "building": 393
+          }
+        },
+        {
+          "id": "INkZ",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/vue/dist/vue.common.prod.js",
+          "name": "./node_modules/vue/dist/vue.common.prod.js",
+          "profile": {
+            "factory": 24,
+            "building": 363
+          }
+        },
+        {
+          "id": "URgk",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/timers-browserify/main.js",
+          "name": "./node_modules/timers-browserify/main.js",
+          "profile": {
+            "factory": 440,
+            "building": 7,
+            "dependencies": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 33,
+        "building": 18,
+        "dependencies": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4
+    },
+    {
+      "id": "YuTi",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/webpack/buildin/module.js",
+      "name": "(webpack)/buildin/module.js",
+      "index": 5,
+      "index2": 1,
+      "size": 497,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/lodash/lodash.js",
+      "issuerId": "LvDl",
+      "issuerName": "./node_modules/lodash/lodash.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "LvDl",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/lodash/lodash.js",
+          "name": "./node_modules/lodash/lodash.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        }
+      ],
+      "profile": {
+        "factory": 69,
+        "building": 123
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4
+    },
+    {
+      "id": "aET+",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/style-loader/lib/addStyles.js",
+      "name": "./node_modules/style-loader/lib/addStyles.js",
+      "index": 39,
+      "index2": 38,
+      "size": 10399,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/home/alexrenner/Code/files/Suite-L7/node_modules/style-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/css-loader/index.js??ref--5-2!/home/alexrenner/Code/files/Suite-L7/node_modules/postcss-loader/src/index.js??postcss0!/home/alexrenner/Code/files/Suite-L7/node_modules/sass-loader/dist/cjs.js??ref--5-4!/home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+      "issuerId": "pyCd",
+      "issuerName": "./resources/sass/app.scss",
+      "issuerPath": [
+        {
+          "id": "pyCd",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/home/alexrenner/Code/files/Suite-L7/node_modules/style-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/css-loader/index.js??ref--5-2!/home/alexrenner/Code/files/Suite-L7/node_modules/postcss-loader/src/index.js??postcss0!/home/alexrenner/Code/files/Suite-L7/node_modules/sass-loader/dist/cjs.js??ref--5-4!/home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "./resources/sass/app.scss"
+        }
+      ],
+      "profile": {
+        "factory": 266,
+        "building": 4284
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "id": "bUC5",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+      "name": "./resources/js/app.js",
+      "index": 1,
+      "index2": 34,
+      "size": 23,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+      "issuerId": 0,
+      "issuerName": "multi ./resources/js/app.js ./resources/sass/app.scss",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        }
+      ],
+      "profile": {
+        "factory": 84,
+        "building": 364
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": "endd",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/cancel/Cancel.js",
+      "name": "./node_modules/axios/lib/cancel/Cancel.js",
+      "index": 33,
+      "index2": 28,
+      "size": 385,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+      "issuerId": "zuR4",
+      "issuerName": "./node_modules/axios/lib/axios.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 20,
+        "building": 26,
+        "dependencies": 30
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 5
+    },
+    {
+      "id": "eqyj",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/helpers/cookies.js",
+      "name": "./node_modules/axios/lib/helpers/cookies.js",
+      "index": 31,
+      "index2": 22,
+      "size": 1435,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/adapters/xhr.js",
+      "issuerId": "tQ2B",
+      "issuerName": "./node_modules/axios/lib/adapters/xhr.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        },
+        {
+          "id": "JEQr",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/defaults.js",
+          "name": "./node_modules/axios/lib/defaults.js",
+          "profile": {
+            "factory": 20,
+            "building": 26,
+            "dependencies": 30
+          }
+        },
+        {
+          "id": "tQ2B",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/adapters/xhr.js",
+          "name": "./node_modules/axios/lib/adapters/xhr.js",
+          "profile": {
+            "factory": 30,
+            "building": 14,
+            "dependencies": 2
+          }
+        }
+      ],
+      "profile": {
+        "factory": 22,
+        "building": 12,
+        "dependencies": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 7
+    },
+    {
+      "id": "g7np",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/buildFullPath.js",
+      "name": "./node_modules/axios/lib/core/buildFullPath.js",
+      "index": 26,
+      "index2": 19,
+      "size": 695,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/adapters/xhr.js",
+      "issuerId": "tQ2B",
+      "issuerName": "./node_modules/axios/lib/adapters/xhr.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        },
+        {
+          "id": "JEQr",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/defaults.js",
+          "name": "./node_modules/axios/lib/defaults.js",
+          "profile": {
+            "factory": 20,
+            "building": 26,
+            "dependencies": 30
+          }
+        },
+        {
+          "id": "tQ2B",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/adapters/xhr.js",
+          "name": "./node_modules/axios/lib/adapters/xhr.js",
+          "profile": {
+            "factory": 30,
+            "building": 14,
+            "dependencies": 2
+          }
+        }
+      ],
+      "profile": {
+        "factory": 22,
+        "building": 12,
+        "dependencies": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 7
+    },
+    {
+      "id": "jfS+",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/cancel/CancelToken.js",
+      "name": "./node_modules/axios/lib/cancel/CancelToken.js",
+      "index": 34,
+      "index2": 29,
+      "size": 1240,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+      "issuerId": "zuR4",
+      "issuerName": "./node_modules/axios/lib/axios.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 20,
+        "building": 26,
+        "dependencies": 30
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 5
+    },
+    {
+      "id": "lIx/",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/css-loader/index.js??ref--5-2!/home/alexrenner/Code/files/Suite-L7/node_modules/postcss-loader/src/index.js??postcss0!/home/alexrenner/Code/files/Suite-L7/node_modules/sass-loader/dist/cjs.js??ref--5-4!/home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+      "name": "./node_modules/css-loader??ref--5-2!./node_modules/postcss-loader/src??postcss0!./node_modules/sass-loader/dist/cjs.js??ref--5-4!./resources/sass/app.scss",
+      "index": 37,
+      "index2": 36,
+      "size": 192218,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/home/alexrenner/Code/files/Suite-L7/node_modules/style-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/css-loader/index.js??ref--5-2!/home/alexrenner/Code/files/Suite-L7/node_modules/postcss-loader/src/index.js??postcss0!/home/alexrenner/Code/files/Suite-L7/node_modules/sass-loader/dist/cjs.js??ref--5-4!/home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+      "issuerId": "pyCd",
+      "issuerName": "./resources/sass/app.scss",
+      "issuerPath": [
+        {
+          "id": "pyCd",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/home/alexrenner/Code/files/Suite-L7/node_modules/style-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/css-loader/index.js??ref--5-2!/home/alexrenner/Code/files/Suite-L7/node_modules/postcss-loader/src/index.js??postcss0!/home/alexrenner/Code/files/Suite-L7/node_modules/sass-loader/dist/cjs.js??ref--5-4!/home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "./resources/sass/app.scss"
+        }
+      ],
+      "profile": {
+        "factory": 266,
+        "building": 4284
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "id": "pyCd",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/home/alexrenner/Code/files/Suite-L7/node_modules/style-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/css-loader/index.js??ref--5-2!/home/alexrenner/Code/files/Suite-L7/node_modules/postcss-loader/src/index.js??postcss0!/home/alexrenner/Code/files/Suite-L7/node_modules/sass-loader/dist/cjs.js??ref--5-4!/home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+      "name": "./resources/sass/app.scss",
+      "index": null,
+      "index2": null,
+      "size": 41,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": null
+    },
+    {
+      "id": "tQ2B",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/adapters/xhr.js",
+      "name": "./node_modules/axios/lib/adapters/xhr.js",
+      "index": 22,
+      "index2": 23,
+      "size": 5837,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/defaults.js",
+      "issuerId": "JEQr",
+      "issuerName": "./node_modules/axios/lib/defaults.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        },
+        {
+          "id": "JEQr",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/defaults.js",
+          "name": "./node_modules/axios/lib/defaults.js",
+          "profile": {
+            "factory": 20,
+            "building": 26,
+            "dependencies": 30
+          }
+        }
+      ],
+      "profile": {
+        "factory": 30,
+        "building": 14,
+        "dependencies": 2
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 6
+    },
+    {
+      "id": "vDqi",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+      "name": "./node_modules/axios/index.js",
+      "index": 9,
+      "index2": 32,
+      "size": 40,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+      "issuerId": "9Wh1",
+      "issuerName": "./resources/js/bootstrap.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        }
+      ],
+      "profile": {
+        "factory": 271,
+        "building": 177,
+        "dependencies": 2
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "id": "w0Vi",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/helpers/parseHeaders.js",
+      "name": "./node_modules/axios/lib/helpers/parseHeaders.js",
+      "index": 29,
+      "index2": 20,
+      "size": 1393,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/adapters/xhr.js",
+      "issuerId": "tQ2B",
+      "issuerName": "./node_modules/axios/lib/adapters/xhr.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        },
+        {
+          "id": "JEQr",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/defaults.js",
+          "name": "./node_modules/axios/lib/defaults.js",
+          "profile": {
+            "factory": 20,
+            "building": 26,
+            "dependencies": 30
+          }
+        },
+        {
+          "id": "tQ2B",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/adapters/xhr.js",
+          "name": "./node_modules/axios/lib/adapters/xhr.js",
+          "profile": {
+            "factory": 30,
+            "building": 14,
+            "dependencies": 2
+          }
+        }
+      ],
+      "profile": {
+        "factory": 22,
+        "building": 12,
+        "dependencies": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 7
+    },
+    {
+      "id": "xAGQ",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/transformData.js",
+      "name": "./node_modules/axios/lib/core/transformData.js",
+      "index": 17,
+      "index2": 10,
+      "size": 550,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/dispatchRequest.js",
+      "issuerId": "UnBK",
+      "issuerName": "./node_modules/axios/lib/core/dispatchRequest.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        },
+        {
+          "id": "CgaS",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/Axios.js",
+          "name": "./node_modules/axios/lib/core/Axios.js",
+          "profile": {
+            "factory": 20,
+            "building": 26,
+            "dependencies": 30
+          }
+        },
+        {
+          "id": "UnBK",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/core/dispatchRequest.js",
+          "name": "./node_modules/axios/lib/core/dispatchRequest.js",
+          "profile": {
+            "factory": 23,
+            "building": 12,
+            "dependencies": 2
+          }
+        }
+      ],
+      "profile": {
+        "factory": 17,
+        "building": 11,
+        "dependencies": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 7
+    },
+    {
+      "id": "xTJ+",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/utils.js",
+      "name": "./node_modules/axios/lib/utils.js",
+      "index": 11,
+      "index2": 7,
+      "size": 8815,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+      "issuerId": "zuR4",
+      "issuerName": "./node_modules/axios/lib/axios.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 20,
+        "building": 26,
+        "dependencies": 30
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 5
+    },
+    {
+      "id": "yK9s",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/helpers/normalizeHeaderName.js",
+      "name": "./node_modules/axios/lib/helpers/normalizeHeaderName.js",
+      "index": 21,
+      "index2": 13,
+      "size": 357,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/defaults.js",
+      "issuerId": "JEQr",
+      "issuerName": "./node_modules/axios/lib/defaults.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "zuR4",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/axios/lib/axios.js",
+          "profile": {
+            "factory": 420,
+            "building": 1
+          }
+        },
+        {
+          "id": "JEQr",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/defaults.js",
+          "name": "./node_modules/axios/lib/defaults.js",
+          "profile": {
+            "factory": 20,
+            "building": 26,
+            "dependencies": 30
+          }
+        }
+      ],
+      "profile": {
+        "factory": 30,
+        "building": 14,
+        "dependencies": 2
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 6
+    },
+    {
+      "id": "yLpj",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/webpack/buildin/global.js",
+      "name": "(webpack)/buildin/global.js",
+      "index": 4,
+      "index2": 0,
+      "size": 472,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        2
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/vue/dist/vue.common.prod.js",
+      "issuerId": "INkZ",
+      "issuerName": "./node_modules/vue/dist/vue.common.prod.js",
+      "issuerPath": [
+        {
+          "id": 1,
+          "identifier": "multi jquery vue",
+          "name": "multi jquery vue",
+          "profile": {
+            "factory": 0,
+            "building": 0
+          }
+        },
+        {
+          "id": "XuX8",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/vue/dist/vue.common.js",
+          "name": "./node_modules/vue/dist/vue.common.js",
+          "profile": {
+            "factory": 785,
+            "building": 393
+          }
+        },
+        {
+          "id": "INkZ",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/vue/dist/vue.common.prod.js",
+          "name": "./node_modules/vue/dist/vue.common.prod.js",
+          "profile": {
+            "factory": 24,
+            "building": 363
+          }
+        }
+      ],
+      "profile": {
+        "factory": 440,
+        "building": 7,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "id": "zuR4",
+      "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/lib/axios.js",
+      "name": "./node_modules/axios/lib/axios.js",
+      "index": 10,
+      "index2": 31,
+      "size": 1423,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+      "issuerId": "vDqi",
+      "issuerName": "./node_modules/axios/index.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /home/alexrenner/Code/files/Suite-L7/resources/js/app.js /home/alexrenner/Code/files/Suite-L7/resources/sass/app.scss",
+          "name": "multi ./resources/js/app.js ./resources/sass/app.scss",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": "bUC5",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/app.js",
+          "name": "./resources/js/app.js",
+          "profile": {
+            "factory": 84,
+            "building": 364
+          }
+        },
+        {
+          "id": "9Wh1",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/babel-loader/lib/index.js??ref--4-0!/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/resources/js/bootstrap.js",
+          "name": "./resources/js/bootstrap.js",
+          "profile": {
+            "factory": 761,
+            "building": 20,
+            "dependencies": 2
+          }
+        },
+        {
+          "id": "vDqi",
+          "identifier": "/home/alexrenner/Code/files/Suite-L7/node_modules/remove-flow-types-loader/index.js!/home/alexrenner/Code/files/Suite-L7/node_modules/axios/index.js",
+          "name": "./node_modules/axios/index.js",
+          "profile": {
+            "factory": 271,
+            "building": 177,
+            "dependencies": 2
+          }
+        }
+      ],
+      "profile": {
+        "factory": 420,
+        "building": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  }
+}

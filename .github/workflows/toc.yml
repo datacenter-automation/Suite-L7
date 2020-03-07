@@ -1,0 +1,12 @@
+name: Table of Contents Generator
+
+on:
+    pull_request:
+        types: [opened, synchronize, reopened, closed]
+
+jobs:
+    generate-table-of-contents:
+        name: Table of Contents Generator
+        runs-on: ubuntu-latest
+        steps:
+            - uses: technote-space/toc-generator@v2

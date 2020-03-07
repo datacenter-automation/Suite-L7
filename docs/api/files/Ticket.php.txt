@@ -1,0 +1,70 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+
+/**
+ * App\Ticket
+ *
+ * @property int $id
+ * @property int $user_id
+ * @property int|null $feedback_id
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Comment[] $comments
+ * @property-read int|null $comments_count
+ * @property-read \App\Models\Feedback $feedback
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Note[] $notes
+ * @property-read int|null $notes_count
+ * @property-read \App\User $user
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Ticket newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Ticket newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Ticket query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Ticket whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Ticket whereFeedbackId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Ticket whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Ticket whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Ticket whereUserId($value)
+ * @mixin \Eloquent
+ */
+class Ticket extends Model
+{
+
+    protected $guarded = [];
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function user(): BelongsTo
+    {
+        return $this->belongsTo(User::class);
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function comments(): HasMany
+    {
+        return $this->hasMany(Comment::class);
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function notes(): HasMany
+    {
+        return $this->hasMany(Note::class);
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasOne
+     */
+    public function feedback()
+    {
+        return $this->hasOne(\App\Models\Feedback::class);
+    }
+}
+

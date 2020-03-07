@@ -1,0 +1,69 @@
+<?php
+
+namespace App\Exceptions\Api;
+
+use Exception;
+use ReflectionClass;
+use Illuminate\Http\Request;
+use Illuminate\Support\Str;
+
+
+class BaseException extends Exception
+{
+
+    /**
+     * Get trace identifier.
+     *
+     * @throws \ReflectionException
+     *
+     * @return string
+     */
+    final public function getTraceId(): string
+    {
+        return sprintf('API_%s_%s_%s', $this->prepareClassShortcut(), $this->preparePathShortcut(), time());
+    }
+
+    /**
+     * Render the exception as an HTTP response.
+     *
+     * @param \Illuminate\Http\Request $request
+     *
+     * @throws \ReflectionException
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
+    final public function render(Request $request)
+    {
+        return response()->json([
+            'error' => [
+                'message' => self::getMessage(),
+                'type'    => get_class($this),
+                'code'    => self::getCode(),
+                'traceid' => self::getTraceId(),
+            ],
+        ], self::getCode());
+    }
+
+    /**
+     * Get shortened class identifier.
+     *
+     * @throws \ReflectionException
+     *
+     * @return string|string[]|null
+     */
+    final protected function prepareClassShortcut()
+    {
+        return preg_replace('/[^A-Z]/', '', str_replace('Exception', '', (new ReflectionClass($this))->getShortName()));
+    }
+
+    /**
+     * Get shortened path identifier.
+     *
+     * @return string
+     */
+    final protected function preparePathShortcut(): string
+    {
+        return Str::camel(str_replace('/', '_', request()->path()));
+    }
+}
+

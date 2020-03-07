@@ -1,0 +1,47 @@
+# Locks closed issues and pull requests after a period of inactivity
+name: 'Lock threads'
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+  lock:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dessant/lock-threads@v2
+        with:
+          # GitHub access token, value must be ${{ github.token }}
+          github-token: ${{ github.token }}
+          # Number of days of inactivity before a closed issue is locked
+          issue-lock-inactive-days: '365'
+          # Reason for locking a pull request, value must be one of resolved, off-topic, too heated, spam or ''
+          issue-lock-reason: 'resolved'
+          # Number of days of inactivity before a closed pull request is locked
+          pr-lock-inactive-days: '90'
+          # Do not lock pull requests created before a given timestamp, value must follow ISO 8601
+          pr-exclude-created-before: ''
+          # Labels to add before locking a pull request, value must be a comma separated list of labels or ''
+          pr-lock-labels: 'locked'
+          # Reason for locking an issue, value must be one of resolved, off-topic, too heated, spam or ''
+          pr-lock-reason: 'resolved'
+          # Do not lock issues created before a given timestamp, value must follow ISO 8601
+          issue-exclude-created-before: '2018-01-01T00:00:00Z'
+          # Do not lock issues with these labels, value must be a comma separated list of labels or ''
+          issue-exclude-labels: 'upstream, help-wanted'
+          # Limit locking to only issues or pull requests, value must be one of issues, prs or ''
+          process-only: 'issues'
+          # Do not lock pull requests with these labels, value must be a comma separated list of labels or ''
+          pr-exclude-labels: 'wip'
+          # Labels to add before locking an issue, value must be a comma separated list of labels or ''
+          issue-lock-labels: 'outdated'
+          # Comment to post before locking an issue
+          issue-lock-comment: >
+            This issue has been automatically locked since there
+            has not been any recent activity after it was closed.
+            Please open a new issue for related bugs.
+          # Comment to post before locking a pull request
+          pr-lock-comment: >
+            This pull request has been automatically locked since there
+            has not been any recent activity after it was closed.
+            Please open a new issue for related bugs.

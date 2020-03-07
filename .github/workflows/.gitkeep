@@ -1,0 +1,17 @@
+#name: CI
+#
+#on: push
+#
+#jobs:
+#  composer-normalize:
+#    name: composer-normalize
+#
+#    runs-on: ubuntu-latest
+#
+#    steps:
+#        - name: Checkout
+#          uses: actions/checkout@master
+#
+#        - name: composer-normalize-action
+#          uses: localheinz/composer-normalize-action@0.5.2
+#

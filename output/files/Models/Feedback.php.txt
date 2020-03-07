@@ -1,0 +1,36 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+/**
+ * App\Models\Feedback
+ *
+ * @property int $id
+ * @property int $ticket_id
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property-read \App\Ticket $ticket
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Feedback newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Feedback newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Feedback query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Feedback whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Feedback whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Feedback whereTicketId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Feedback whereUpdatedAt($value)
+ * @mixin \Eloquent
+ */
+class Feedback extends Model
+{
+    protected $guarded = [];
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function ticket()
+    {
+        return $this->belongsTo(\App\Ticket::class);
+    }
+}
+

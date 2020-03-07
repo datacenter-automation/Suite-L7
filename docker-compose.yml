@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  dcas-l6:
+    image: dcas-l7
+    build: .
+    ports:
+      - 80:80

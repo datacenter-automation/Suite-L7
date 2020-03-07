@@ -1,0 +1,34 @@
+ % php artisan blueprint:build
+Created:
+- database/migrations/2020_04_14_052744_create_tickets_table.php
+- database/migrations/2020_04_14_052745_create_comments_table.php
+- database/migrations/2020_04_14_052746_create_notes_table.php
+- database/migrations/2020_04_14_052747_create_feedback_table.php
+- app/Ticket.php
+- app/Comment.php
+- app/Note.php
+- app/Feedback.php
+- database/factories/TicketFactory.php
+- database/factories/CommentFactory.php
+- database/factories/NoteFactory.php
+- database/factories/FeedbackFactory.php
+- app/Http/Controllers/TicketController.php
+- app/Http/Controllers/Api/CommentController.php
+- app/Http/Controllers/Api/NoteController.php
+- app/Http/Controllers/Api/FeedbackController.php
+- app/Http/Requests/TicketStoreRequest.php
+- app/Http/Requests/TicketUpdateRequest.php
+- app/Http/Requests/Api/CommentStoreRequest.php
+- app/Http/Requests/Api/NoteStoreRequest.php
+- app/Http/Requests/Api/FeedbackStoreRequest.php
+- resources/views/ticket/index.blade.php
+- resources/views/ticket/create.blade.php
+- resources/views/ticket/show.blade.php
+- resources/views/ticket/edit.blade.php
+- tests/Feature/Http/Controllers/TicketControllerTest.php
+- tests/Feature/Http/Controllers/Api/CommentControllerTest.php
+- tests/Feature/Http/Controllers/Api/NoteControllerTest.php
+- tests/Feature/Http/Controllers/Api/FeedbackControllerTest.php
+
+Updated:
+- routes/web.php
