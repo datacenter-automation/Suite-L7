@@ -3,7 +3,7 @@
 
 /**
  * A helper file for Laravel, to provide autocomplete information to your IDE
- * Generated for Laravel 7.8.1 on 2020-04-26 21:54:30.
+ * Generated for Laravel 7.9.2 on 2020-04-29 02:06:26.
  *
  * This file should not be included in your code, only analyzed by your IDE!
  *
@@ -2679,6 +2679,19 @@ namespace Illuminate\Support\Facades {
         {
                         return \Illuminate\View\Compilers\BladeCompiler::sanitizeComponentAttribute($value);
         }
+        
+        /**
+         * Compile Blade echos into valid PHP.
+         *
+         * @param string $value
+         * @return string 
+         * @static 
+         */ 
+        public static function compileEchos($value)
+        {
+                        /** @var \Illuminate\View\Compilers\BladeCompiler $instance */
+                        return $instance->compileEchos($value);
+        }
          
     }
 
@@ -3945,7 +3958,7 @@ namespace Illuminate\Support\Facades {
          * @param string $key
          * @param mixed $default
          * @param string|null $path
-         * @return \Symfony\Component\HttpFoundation\Cookie 
+         * @return \Symfony\Component\HttpFoundation\Cookie|null 
          * @static 
          */ 
         public static function queued($key, $default = null, $path = null)
@@ -19312,6 +19325,7 @@ namespace  {
 namespace {
 
 
+use Illuminate\Contracts\Support\DeferringDisplayableValue;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
@@ -19556,12 +19570,16 @@ if (! function_exists('e')) {
     /**
      * Encode HTML special characters in a string.
      *
-     * @param  \Illuminate\Contracts\Support\Htmlable|string  $value
+     * @param  \Illuminate\Contracts\Support\DeferringDisplayableValue|\Illuminate\Contracts\Support\Htmlable|string  $value
      * @param  bool  $doubleEncode
      * @return string
      */
     function e($value, $doubleEncode = true)
     {
+        if ($value instanceof DeferringDisplayableValue) {
+            $value = $value->resolveDisplayableValue();
+        }
+
         if ($value instanceof Htmlable) {
             return $value->toHtml();
         }

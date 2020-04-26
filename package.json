@@ -21,7 +21,7 @@
         "@lassehaslev/executor": "^1.0.1",
         "@tailwindcss/custom-forms": "^0.2",
         "@vue/test-utils": "^1.0.0-beta.33",
-        "ava": "^3.8.0",
+        "ava": "^3.8.1",
         "axios": "^0.19.2",
         "babel-eslint": "^10.1.0",
         "beautifier": "^0.1.7",
