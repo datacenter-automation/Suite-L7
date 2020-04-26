@@ -31,12 +31,12 @@ Route::get('/', function (Router $router) {
 
 Route::get('server-side-partial/{partial}', function ($partial) {
     if (Str::contains($partial, '_')) {
-        return null;
+        return;
     } else {
         try {
             return view("partials.{$partial}");
         } catch (InvalidArgumentException $e) {
-            return null;
+            return;
         }
     }
 })->withoutMiddleware(['auth', 'auth:api']);

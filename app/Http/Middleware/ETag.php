@@ -8,7 +8,6 @@ use Illuminate\Http\Response;
 
 class ETag
 {
-
     /**
      * @var string
      */
@@ -72,7 +71,7 @@ class ETag
          * @var \Illuminate\Http\Response|\Illuminate\Http\JsonResponse $response
          */
 
-        return '/' . \Request::path() . ':' . hash('sha256', json_encode($response->headers->get('origin')) . $response->getContent());;
+        return '/'.\Request::path().':'.hash('sha256', json_encode($response->headers->get('origin')).$response->getContent());
     }
 
     /**
