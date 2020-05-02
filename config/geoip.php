@@ -126,7 +126,6 @@ return [
 
     'cache_tags' => [],
 
-
     /*
     |--------------------------------------------------------------------------
     | Cache Expiration
@@ -156,7 +155,7 @@ return [
         'state_name'  => 'Connecticut',
         'postal_code' => '06510',
         'lat'         => 41.31,
-        'lon'         => - 72.92,
+        'lon'         => -72.92,
         'timezone'    => 'America/New_York',
         'continent'   => 'NA',
         'default'     => true,

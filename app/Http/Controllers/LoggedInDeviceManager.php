@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 
 class LoggedInDeviceManager extends Controller
 {
-
     /**
      * Display a listing of the currently logged in devices.
      *
@@ -14,7 +13,6 @@ class LoggedInDeviceManager extends Controller
      */
     public function index()
     {
-
         $devices = \DB::table('sessions')->where('user_id', \Auth::user()->id)->get()->reverse();
 
         return view('logged-in-devices.list')->with('devices', $devices)->with('current_session_id', \Session::getId());
@@ -30,7 +28,6 @@ class LoggedInDeviceManager extends Controller
      */
     public function logoutDevice(Request $request, $device_id)
     {
-
         \DB::table('sessions')->where('id', $device_id)->delete();
 
         return redirect('/logged-in-devices');
