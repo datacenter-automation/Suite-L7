@@ -27,6 +27,12 @@ class EventServiceProvider extends ServiceProvider
     public function boot()
     {
         parent::boot();
-        //
+
+        //// Fired on successful logins...
+        //$events->listen('auth.login', function ($user, $remember) {
+        //    \DB::table('sessions')
+        //        ->where('user_id', \Auth::user()->id)
+        //        ->where('id', '!=', \Session::getId())->delete();
+        //});
     }
 }

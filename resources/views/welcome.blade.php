@@ -23,10 +23,6 @@
       @else
         <a href="{{ route('login') }}"
            class="no-underline hover:underline text-sm font-normal text-teal-800 uppercase pr-6">{{ __('Login') }}</a>
-        @if (Route::has('register'))
-          <a href="{{ route('register') }}"
-             class="no-underline hover:underline text-sm font-normal text-teal-800 uppercase">{{ __('Register') }}</a>
-        @endif
       @endauth
     </div>
   @endif
@@ -39,31 +35,13 @@
         </h1>
         <ul class="list-reset">
           <li class="inline pr-8">
-            <a href="https://laravel.com/docs"
+            <a href="https://dcas.com/docs"
                class="no-underline hover:underline text-sm font-normal text-teal-800 uppercase" title="Documentation">Documentation</a>
           </li>
-          <li class="inline pr-8">
-            <a href="https://laracasts.com"
-               class="no-underline hover:underline text-sm font-normal text-teal-800 uppercase" title="Laracasts">Laracasts</a>
-          </li>
-          <li class="inline pr-8">
-            <a href="https://laravel-news.com"
-               class="no-underline hover:underline text-sm font-normal text-teal-800 uppercase" title="News">News</a>
-          </li>
-          <li class="inline pr-8">
-            <a href="https://nova.laravel.com"
-               class="no-underline hover:underline text-sm font-normal text-teal-800 uppercase" title="Nova">Nova</a>
-          </li>
-          <li class="inline pr-8">
-            <a href="https://forge.laravel.com"
-               class="no-underline hover:underline text-sm font-normal text-teal-800 uppercase" title="Forge">Forge</a>
-          </li>
-          <li class="inline pr-8">
-            <a href="https://github.com/laravel/laravel"
-               class="no-underline hover:underline text-sm font-normal text-teal-800 uppercase"
-               title="GitHub">GitHub</a>
-          </li>
         </ul>
+      </div>
+      <div class="title m-b-md pt-4">
+        {{ __('message.welcome') }}
       </div>
     </div>
   </div>

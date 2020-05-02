@@ -3,7 +3,7 @@
 namespace App\Models\Roles;
 
 /**
- * App\Models\Roles\Whitegloves.
+ * App\Models\Roles\Whitegloves
  *
  * @property int $id
  * @property string $uuid

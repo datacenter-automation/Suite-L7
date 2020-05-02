@@ -181,13 +181,14 @@ return [
          * Package Service Providers...
          */
         Dyrynda\Database\LaravelEfficientUuidServiceProvider::class,
+        \Torann\GeoIP\GeoIPServiceProvider::class,
 
         /*
          * Application Service Providers...
          */
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
+        //App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
@@ -243,6 +244,7 @@ return [
         'Validator'    => Illuminate\Support\Facades\Validator::class,
         'View'         => Illuminate\Support\Facades\View::class,
         'Geocoder'     => Spatie\Geocoder\Facades\Geocoder::class,
+        'GeoIP'        => \Torann\GeoIP\Facades\GeoIP::class,
 
     ],
 

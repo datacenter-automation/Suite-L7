@@ -36,7 +36,8 @@
         "spatie/laravel-model-cleanup": "^2.5",
         "spatie/laravel-permission": "^3.11",
         "spatie/laravel-searchable": "^1.6",
-        "titasgailius/terminal": "^0.2.0"
+        "titasgailius/terminal": "^0.2.0",
+        "torann/geoip": "^1.2"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.2",

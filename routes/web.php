@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome');
 
+Route::get('/lang/{lang}', 'LanguagePreferenceController@setLanguage');
+
 Route::resource('ticket', 'TicketController');
 
 Route::resource('comment', 'CommentController')->only('store');
