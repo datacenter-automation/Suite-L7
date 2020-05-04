@@ -10,7 +10,7 @@ use Laravel\Cashier\Billable;
 use Laravel\Scout\Searchable;
 
 /**
- * App\Models\Roles\BaseUser.
+ * App\Models\Roles\BaseUser
  *
  * @property-read \Illuminate\Notifications\DatabaseNotificationCollection|\Illuminate\Notifications\DatabaseNotification[] $notifications
  * @property-read int|null $notifications_count

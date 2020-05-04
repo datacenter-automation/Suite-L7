@@ -74,3 +74,17 @@ class AppServiceProvider extends ServiceProvider
         //}
     }
 }
+
+
+//Chinese					zh
+//English					en
+//Hindustani				hi
+//Spanish					es
+//Arabic					ar
+//Russian					ru
+//Portuguese				pt
+//French					fr
+//Dutch					nl
+//Italian					it
+//Japanese				ja
+//Korean					ko

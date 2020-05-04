@@ -7,12 +7,27 @@ use Cookie;
 
 class LanguagePreferenceController extends Controller
 {
+
     public function setLanguage($lang)
     {
-        $supportedLocales = ['en', 'es', 'de'];
+        $supportedLocales = [
+            'ar',
+            'de',
+            'en',
+            'es',
+            'fr',
+            'hi',
+            'it',
+            'ja',
+            'ko',
+            'nl',
+            'pt',
+            'ru',
+            'zh',
+        ];
 
         if (in_array($lang, $supportedLocales)) {
-            Cookie::queue(Cookie::make('lang', $lang, '20160'));
+            Cookie::queue(Cookie::make('lang', $lang, '20160')); // 2 week expiry
 
             App::setLocale($lang);
         } else {
@@ -22,3 +37,16 @@ class LanguagePreferenceController extends Controller
         return back();
     }
 }
+
+//Chinese					zh
+//English					en
+//Hindustani				hi
+//Spanish					es
+//Arabic					ar
+//Russian					ru
+//Portuguese				pt
+//French					fr
+//Dutch					nl
+//Italian					it
+//Japanese				ja
+//Korean					ko
