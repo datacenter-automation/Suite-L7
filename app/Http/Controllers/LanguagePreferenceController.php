@@ -7,7 +7,6 @@ use Cookie;
 
 class LanguagePreferenceController extends Controller
 {
-
     public function setLanguage($lang)
     {
         $supportedLocales = [

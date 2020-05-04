@@ -5,15 +5,13 @@ namespace App\General;
 use RuntimeException;
 
 /**
- * Class UniqueIdentifier
+ * Class UniqueIdentifier.
  *
- * @package App\General
  *
  * @todo Keep working on this.
  */
 class UniqueIdentifier
 {
-
     /**
      * The prime number that is used to convert a number to a unique other number within the maximum range.
      *
@@ -188,7 +186,7 @@ class UniqueIdentifier
         $this->validateInput($start, $end);
 
         $generator = (function () use ($start, $end) {
-            for ($i = $start; $i <= ($end ?? $start); $i ++) {
+            for ($i = $start; $i <= ($end ?? $start); $i++) {
                 $number = $this->obfuscateNumber($i);
                 $string = $this->encodeNumber($number);
 
@@ -231,7 +229,7 @@ class UniqueIdentifier
         $string = '';
         $characters = $this->characters;
 
-        for ($i = 0; $i < $this->length; $i ++) {
+        for ($i = 0; $i < $this->length; $i++) {
             $digit = $number % strlen($characters);
 
             $string .= $characters[$digit];
@@ -255,7 +253,7 @@ class UniqueIdentifier
         $code = '';
 
         if ($this->prefix !== null) {
-            $code .= $this->prefix . $this->delimiter;
+            $code .= $this->prefix.$this->delimiter;
         }
 
         if ($this->splitLength !== null) {
@@ -265,7 +263,7 @@ class UniqueIdentifier
         }
 
         if ($this->suffix !== null) {
-            $code .= $this->delimiter . $this->suffix;
+            $code .= $this->delimiter.$this->suffix;
         }
 
         return $code;
@@ -329,7 +327,7 @@ class UniqueIdentifier
     {
         $maxCombinations = 1;
 
-        for ($i = 0; $i < $this->length; $i ++) {
+        for ($i = 0; $i < $this->length; $i++) {
             $maxCombinations = $maxCombinations * (strlen($this->characters) - $i);
         }
 

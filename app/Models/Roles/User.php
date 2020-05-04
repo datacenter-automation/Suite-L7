@@ -5,7 +5,7 @@ namespace App\Models\Roles;
 use App\Ticket;
 
 /**
- * App\Models\Roles\User
+ * App\Models\Roles\User.
  *
  * @property int $id
  * @property string $uuid
@@ -54,7 +54,6 @@ use App\Ticket;
  */
 class User extends BaseUser
 {
-
     // Customer
 
     /**

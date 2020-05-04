@@ -3,13 +3,10 @@
 namespace App\General;
 
 /**
- * Class TransactionId
- *
- * @package App\General
+ * Class TransactionId.
  */
 class TransactionId implements IdentificationFormat
 {
-
     /**
      * Generate a transaction identification number.
      *
@@ -25,7 +22,7 @@ class TransactionId implements IdentificationFormat
 
         $length = 64;
 
-        for ($count = 0; $count < $length; $count ++) {
+        for ($count = 0; $count < $length; $count++) {
             $transactionId .= strtoupper($chars[rand(0, count($chars) - 1)]);
         }
 

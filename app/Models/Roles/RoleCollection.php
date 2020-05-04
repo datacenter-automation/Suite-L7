@@ -6,7 +6,6 @@ use Illuminate\Support\Collection;
 
 class RoleCollection extends Collection
 {
-
     /**
      * @var string
      */
@@ -47,6 +46,6 @@ class RoleCollection extends Collection
      */
     public static function factory()
     {
-        return new RoleCollection;
+        return new self;
     }
 }

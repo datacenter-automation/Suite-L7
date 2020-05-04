@@ -3,7 +3,7 @@
 namespace App\Models\Roles;
 
 /**
- * App\Models\Roles\Internal
+ * App\Models\Roles\Internal.
  *
  * @property int $id
  * @property string $uuid

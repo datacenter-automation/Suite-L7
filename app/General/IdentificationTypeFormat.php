@@ -4,7 +4,6 @@ namespace App\General;
 
 interface IdentificationTypeFormat
 {
-
     /**
      * @param string $type
      * @param int    $length

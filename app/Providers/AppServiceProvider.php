@@ -75,7 +75,6 @@ class AppServiceProvider extends ServiceProvider
     }
 }
 
-
 //Chinese					zh
 //English					en
 //Hindustani				hi

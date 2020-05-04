@@ -10,11 +10,10 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
 
 /**
- * Helper Class
+ * Helper Class.
  */
 class DCASHelper
 {
-
     /**
      * Get currently used guard name with path.
      *
@@ -49,7 +48,7 @@ class DCASHelper
      */
     public static function getMiddleware(): string
     {
-        return 'auth:' . self::getGuard();
+        return 'auth:'.self::getGuard();
     }
 
     /**
@@ -67,7 +66,7 @@ class DCASHelper
         $secondValues = array_rand($alpha, 2);
         $thirdValues = array_rand($numbers, 4);
 
-        $serialNumber = $numbers[array_rand($numbers)] . $alpha[$secondValues[0]] . $alpha[$secondValues[1]] . $numbers[$thirdValues[0]] . $numbers[$thirdValues[1]] . $numbers[$thirdValues[2]] . $numbers[$thirdValues[3]] . $alpha[array_rand($alpha)] . $numbers[array_rand($numbers)] . $alpha[array_rand($alpha)];
+        $serialNumber = $numbers[array_rand($numbers)].$alpha[$secondValues[0]].$alpha[$secondValues[1]].$numbers[$thirdValues[0]].$numbers[$thirdValues[1]].$numbers[$thirdValues[2]].$numbers[$thirdValues[3]].$alpha[array_rand($alpha)].$numbers[array_rand($numbers)].$alpha[array_rand($alpha)];
 
         return $serialNumber;
     }
@@ -79,7 +78,7 @@ class DCASHelper
      */
     public static function randomPassword(): string
     {
-        return substr(Hash::make(Str::random(15)), - 26, - 1);
+        return substr(Hash::make(Str::random(15)), -26, -1);
     }
 
     /**
@@ -114,7 +113,7 @@ class DCASHelper
     public static function getModel($query)
     {
         if ($query->has('model')) {
-            foreach (DCASHelper::getModelsWithoutPath() as $model) {
+            foreach (self::getModelsWithoutPath() as $model) {
                 if (Str::contains($model, ucfirst($query->get('model')))) {
                     foreach (self::getModels() as $m) {
                         if (strpos($m, ucfirst($query->get('model')))) {
@@ -124,8 +123,6 @@ class DCASHelper
                 }
             }
         }
-
-        return null;
     }
 
     /**
@@ -162,7 +159,7 @@ class DCASHelper
             foreach (explode(app_path(), $file) as $f) {
                 foreach (explode('.php', $f) as $modelList) {
                     if ($modelList != '' && ! Str::contains($modelList, 'BaseModel') && ! Str::contains($modelList, 'BaseRole') && ! Str::contains($modelList, 'RoleCollection')) {
-                        array_push($fileList, '\App' . str_replace('/', '\\', $modelList));
+                        array_push($fileList, '\App'.str_replace('/', '\\', $modelList));
                     }
                 }
             }
@@ -193,7 +190,7 @@ class DCASHelper
         $routeValues = [];
 
         foreach ($routeTypes as $rt) {
-            array_push($routeValues, self::plural($routeBase) . ".{$routeBase}.{$rt}");
+            array_push($routeValues, self::plural($routeBase).".{$routeBase}.{$rt}");
         }
 
         return array_combine($routeTypes, $routeValues);

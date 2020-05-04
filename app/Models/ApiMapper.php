@@ -6,7 +6,7 @@ use Carbon\Carbon;
 use Symfony\Component\HttpFoundation\Response;
 
 /**
- * App\Models\ApiMapper
+ * App\Models\ApiMapper.
  *
  * @property int $id
  * @property string $uuid

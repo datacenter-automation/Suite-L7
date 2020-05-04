@@ -3,11 +3,10 @@
 namespace App\General;
 
 /**
- * Class Pluralize
+ * Class Pluralize.
  */
 class Pluralize
 {
-
     /**
      * @var array
      */
