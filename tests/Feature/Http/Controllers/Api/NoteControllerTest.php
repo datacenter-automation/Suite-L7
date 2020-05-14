@@ -5,7 +5,6 @@ namespace Tests\Feature\Http\Controllers\Api;
 use App\Note;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
-use JMac\Testing\Traits\HttpTestAssertions;
 use Tests\TestCase;
 
 /**
@@ -13,19 +12,7 @@ use Tests\TestCase;
  */
 class NoteControllerTest extends TestCase
 {
-    use HttpTestAssertions, RefreshDatabase, WithFaker;
-
-    /**
-     * @test
-     */
-    public function store_uses_form_request_validation()
-    {
-        $this->assertActionUsesFormRequest(
-            \App\Http\Controllers\Api\NoteController::class,
-            'store',
-            \App\Http\Requests\NoteStoreRequest::class
-        );
-    }
+    use RefreshDatabase, WithFaker;
 
     /**
      * @test

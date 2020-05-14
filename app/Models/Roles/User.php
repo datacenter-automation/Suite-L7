@@ -5,16 +5,21 @@ namespace App\Models\Roles;
 use App\Ticket;
 
 /**
- * App\Models\Roles\User.
+ * App\Models\Roles\User
  *
  * @property int $id
  * @property string $uuid
  * @property string $name
  * @property string $email
+ * @property int $active_status
+ * @property int $dark_mode
+ * @property string $messenger_color
+ * @property string $avatar
  * @property string $password
  * @property string|null $api_token
  * @property string|null $remember_token
  * @property \Illuminate\Support\Carbon|null $email_verified_at
+ * @property string $is_locked
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property string|null $stripe_id
@@ -29,27 +34,32 @@ use App\Ticket;
  * @property-read int|null $password_history_count
  * @property-read \Illuminate\Database\Eloquent\Collection|\Laravel\Cashier\Subscription[] $subscriptions
  * @property-read int|null $subscriptions_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\App\Ticket[] $tickets
+ * @property-read \Illuminate\Database\Eloquent\Collection|Ticket[] $tickets
  * @property-read int|null $tickets_count
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\User newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\User newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\User query()
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\User whereApiToken($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\User whereBlockedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\User whereCardBrand($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\User whereCardLastFour($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\User whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\User whereDeletedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\User whereEmail($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\User whereEmailVerifiedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\User whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\User whereName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\User wherePassword($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\User whereRememberToken($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\User whereStripeId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\User whereTrialEndsAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\User whereUpdatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\User whereUuid($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|User newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|User query()
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereActiveStatus($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereApiToken($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereAvatar($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereBlockedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereCardBrand($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereCardLastFour($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereDarkMode($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereDeletedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereEmail($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereEmailVerifiedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereIsLocked($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereMessengerColor($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User wherePassword($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereRememberToken($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereStripeId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereTrialEndsAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereUuid($value)
  * @mixin \Eloquent
  */
 class User extends BaseUser

@@ -2,14 +2,17 @@
 
 printf "Starting framework update.\n\n"
 
-printf "Running 'composer update'...\n"
-composer update
-
 printf "Running 'npm update'...\n"
 npm update
 
-printf "Running 'npm audit check'...\n"
-npm audit check
+printf "Running 'npm audit fix'...\n"
+npm audit fix
+
+printf "Running 'composer update'...\n"
+composer update
+
+printf "Running 'npm run dev'...\n"
+npm run dev
 
 printf "Done updating framework.\n\n"
 

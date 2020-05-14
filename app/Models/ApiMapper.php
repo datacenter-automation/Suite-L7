@@ -6,7 +6,7 @@ use Carbon\Carbon;
 use Symfony\Component\HttpFoundation\Response;
 
 /**
- * App\Models\ApiMapper.
+ * App\Models\ApiMapper
  *
  * @property int $id
  * @property string $uuid
@@ -15,16 +15,16 @@ use Symfony\Component\HttpFoundation\Response;
  * @property string|null $reason
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ApiMapper newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ApiMapper newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ApiMapper query()
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ApiMapper whereApiCode($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ApiMapper whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ApiMapper whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ApiMapper whereReason($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ApiMapper whereStatusCode($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ApiMapper whereUpdatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ApiMapper whereUuid($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|ApiMapper newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|ApiMapper newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|ApiMapper query()
+ * @method static \Illuminate\Database\Eloquent\Builder|ApiMapper whereApiCode($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|ApiMapper whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|ApiMapper whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|ApiMapper whereReason($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|ApiMapper whereStatusCode($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|ApiMapper whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|ApiMapper whereUuid($value)
  * @mixin \Eloquent
  */
 class ApiMapper extends BaseModel

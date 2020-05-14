@@ -3,49 +3,45 @@
 namespace App\Http\Controllers;
 
 use App;
-use Cookie;
+use App\General\SupportedLocales;
+use App\Traits\LocaleCookie;
+use Illuminate\Http\RedirectResponse;
 
 class LanguagePreferenceController extends Controller
 {
-    public function setLanguage($lang)
+
+    use LocaleCookie;
+
+    /**
+     * Set Language for Translation.
+     *
+     * @param string $lang
+     *
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function setLanguage(string $lang): RedirectResponse
     {
-        $supportedLocales = [
-            'ar',
-            'de',
-            'en',
-            'es',
-            'fr',
-            'hi',
-            'it',
-            'ja',
-            'ko',
-            'nl',
-            'pt',
-            'ru',
-            'zh',
-        ];
-
-        if (in_array($lang, $supportedLocales)) {
-            Cookie::queue(Cookie::make('lang', $lang, '20160')); // 2 week expiry
-
-            App::setLocale($lang);
-        } else {
-            App::setLocale('en');
-        }
+        App::setLocale($this->getLocale($lang));
 
         return back();
     }
+
+    /**
+     *  Get Locale for Translation.
+     *
+     * @param string $lang
+     *
+     * @return string
+     */
+    private function getLocale(string $lang): string
+    {
+        if (in_array($lang, SupportedLocales::Locales)) {
+            LocaleCookie::setLanguageCookie($lang);
+
+            return $lang;
+        } else {
+            return SupportedLocales::Default;
+        }
+    }
 }
 
-//Chinese					zh
-//English					en
-//Hindustani				hi
-//Spanish					es
-//Arabic					ar
-//Russian					ru
-//Portuguese				pt
-//French					fr
-//Dutch					nl
-//Italian					it
-//Japanese				ja
-//Korean					ko

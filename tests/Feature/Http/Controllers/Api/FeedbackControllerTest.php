@@ -5,7 +5,6 @@ namespace Tests\Feature\Http\Controllers\Api;
 use App\Feedback;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
-use JMac\Testing\Traits\HttpTestAssertions;
 use Tests\TestCase;
 
 /**
@@ -13,19 +12,8 @@ use Tests\TestCase;
  */
 class FeedbackControllerTest extends TestCase
 {
-    use HttpTestAssertions, RefreshDatabase, WithFaker;
 
-    /**
-     * @test
-     */
-    public function store_uses_form_request_validation()
-    {
-        $this->assertActionUsesFormRequest(
-            \App\Http\Controllers\Api\FeedbackController::class,
-            'store',
-            \App\Http\Requests\FeedbackStoreRequest::class
-        );
-    }
+    use RefreshDatabase, WithFaker;
 
     /**
      * @test
@@ -39,17 +27,12 @@ class FeedbackControllerTest extends TestCase
 
         $response = $this->post(route('feedback.store'), [
             'ticket_id' => $ticket_id,
-            'body' => $body,
-            'stars' => $stars,
-            'owner_id' => $owner_id,
+            'body'      => $body,
+            'stars'     => $stars,
+            'owner_id'  => $owner_id,
         ]);
 
-        $feedback = Feedback::query()
-            ->where('ticket_id', $ticket_id)
-            ->where('body', $body)
-            ->where('stars', $stars)
-            ->where('owner_id', $owner_id)
-            ->get();
+        $feedback = Feedback::query()->where('ticket_id', $ticket_id)->where('body', $body)->where('stars', $stars)->where('owner_id', $owner_id)->get();
         $this->assertCount(1, $feedback);
         $feedback = $feedback->first();
 

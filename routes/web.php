@@ -19,10 +19,10 @@ Route::get('/lang/{lang}', 'LanguagePreferenceController@setLanguage');
 
 Route::resource('ticket', 'TicketController');
 
-Route::resource('comment', 'CommentController')->only('store');
-
-Route::resource('note', 'NoteController')->only('store');
-
-Route::resource('feedback', 'FeedbackController')->only('store');
+//Route::resource('comment', 'CommentController')->only('store');
+//Route::resource('note', 'NoteController')->only('store');
+//Route::resource('feedback', 'FeedbackController')->only('store');
 
 Route::view('dashboard-beta', 'layouts.dashboard-beta');
+
+Route::view('/component/test', 'test');

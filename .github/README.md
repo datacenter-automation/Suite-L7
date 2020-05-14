@@ -4,10 +4,10 @@
 
 <!--[![Build Status](https://travis-ci.org/datacenter-automation/suite-l6.svg?branch=master)](https://travis-ci.org/datacenter-automation/suite-l6) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/datacenter-automation/suite-l6/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/datacenter-automation/suite-l6/?branch=master) [![Code Coverage](https://scrutinizer-ci.com/g/datacenter-automation/suite-l6/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/datacenter-automation/suite-l6/?branch=master) -->
 ## PRE_ALPHA
-#### Build 2020.05.02
-##### [Laravel Framework 7.9.2]
-###### **PHP 7.4.5** (built: Apr 19 2020 07:36:30) ( NTS ) (_`Zend Engine`_ v3.4.0 & _`Zend OPCache`_ v7.4.5 & _`Xdebug`_ v2.9.3)
-###### **mySQL** 5.7.29
+#### Build 2020.06.08
+##### [Laravel Framework 7.14.1]
+###### **PHP 7.4.6** (built: May 14 2020 10:02:4) ( NTS ) (_`Zend Engine`_ v3.4.0 & _`Zend OPCache`_ v7.4.6 & _`Xdebug`_ v2.9.5)
+###### **mySQL** 5.7.30
 ###### **redis** version 5.0.5
 ###### **sqlite3** version 3.22.0 2018-01-22 18:45:57
 

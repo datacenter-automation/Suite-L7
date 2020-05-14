@@ -10,24 +10,26 @@ use Laravel\Cashier\Billable;
 use Laravel\Scout\Searchable;
 
 /**
- * App\Models\Roles\BaseUser.
+ * App\Models\Roles\BaseUser
  *
+ * @property-read string $is_locked
  * @property-read \Illuminate\Notifications\DatabaseNotificationCollection|\Illuminate\Notifications\DatabaseNotification[] $notifications
  * @property-read int|null $notifications_count
  * @property-read \Illuminate\Database\Eloquent\Collection|\Infinitypaul\LaravelPasswordHistoryValidation\Models\PasswordHistory[] $passwordHistory
  * @property-read int|null $password_history_count
  * @property-read \Illuminate\Database\Eloquent\Collection|\Laravel\Cashier\Subscription[] $subscriptions
  * @property-read int|null $subscriptions_count
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\BaseUser newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\BaseUser newQuery()
- * @method static \Illuminate\Database\Query\Builder|\App\Models\Roles\BaseUser onlyTrashed()
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Roles\BaseUser query()
- * @method static \Illuminate\Database\Query\Builder|\App\Models\Roles\BaseUser withTrashed()
- * @method static \Illuminate\Database\Query\Builder|\App\Models\Roles\BaseUser withoutTrashed()
+ * @method static \Illuminate\Database\Eloquent\Builder|BaseUser newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|BaseUser newQuery()
+ * @method static \Illuminate\Database\Query\Builder|BaseUser onlyTrashed()
+ * @method static \Illuminate\Database\Eloquent\Builder|BaseUser query()
+ * @method static \Illuminate\Database\Query\Builder|BaseUser withTrashed()
+ * @method static \Illuminate\Database\Query\Builder|BaseUser withoutTrashed()
  * @mixin \Eloquent
  */
 class BaseUser extends Authenticatable
 {
+
     use Billable, Notifiable, PasswordHistoryTrait, Searchable, SoftDeletes;
 
     /**
@@ -55,6 +57,7 @@ class BaseUser extends Authenticatable
         'email',
         'email_verified_at',
         'id',
+        'is_locked',
         'name',
         'password',
         'remember_token',
@@ -73,9 +76,22 @@ class BaseUser extends Authenticatable
         'blocked_at'        => 'datetime',
         'created_at'        => 'datetime',
         'email_verified_at' => 'datetime',
+        'is_locked'         => 'boolean',
         'trial_ends_at'     => 'datetime',
         'updated_at'        => 'datetime',
     ];
+
+    /**
+     * Get the account lock status of the User.
+     *
+     * @param string $value
+     *
+     * @return string
+     */
+    public function getIsLockedAttribute($value)
+    {
+        return is_null($value) ? 'false' : 'true';
+    }
 
     /**
      * Get the index name for the model.
@@ -84,7 +100,7 @@ class BaseUser extends Authenticatable
      */
     public function searchableAs()
     {
-        return $this->getTable().'_index';
+        return $this->getTable() . '_index';
     }
 
     /**

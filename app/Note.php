@@ -5,7 +5,7 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * App\Note.
+ * App\Note
  *
  * @property int $id
  * @property int $ticket_id
@@ -15,15 +15,15 @@ use Illuminate\Database\Eloquent\Model;
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \App\Models\Roles\Internal $owner
  * @property-read \App\Ticket $ticket
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Note newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Note newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Note query()
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Note whereBody($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Note whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Note whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Note whereOwnerId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Note whereTicketId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Note whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Note newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Note newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Note query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Note whereBody($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Note whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Note whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Note whereOwnerId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Note whereTicketId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Note whereUpdatedAt($value)
  * @mixin \Eloquent
  */
 class Note extends Model

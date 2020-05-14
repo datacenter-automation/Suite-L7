@@ -3,12 +3,17 @@
 namespace App\Providers;
 
 use App;
+use App\General\SupportedLanguages;
+use App\General\SupportedLocales;
+use App\Traits\LocaleCookie;
 use Cookie;
-use Crypt;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
+
+    use LocaleCookie;
+
     /**
      * Register any application services.
      *
@@ -24,66 +29,39 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
-    {
-        //if (! Cookie::get('lang')) {
-        //    setcookie('lang', Crypt::encrypt('en'));
-        //}
-        //
-        //// todo: this isn't working!!
-        //
-        //$cookie = Crypt::decrypt(Cookie::get('lang'), false);
-        //$visitorIp = request()->ip();
-        //$geo = \GeoIP::getLocation($visitorIp);
-        //
-        //if (is_null($geo)) {
-        //    if (! isset($cookie) && ! empty($cookie)) {
-        //        App::setLocale($cookie);
-        //
-        //        return;
-        //    }
-        //
-        //    App::setLocale('en');
-        //}
-        //
-        //$visitorCountry = $geo['country'];
-        //
-        //$supportedLanguages = [
-        //    'United States' => 'en',
-        //    'Canada'        => 'en',
-        //    'India'         => 'en',
-        //    'Argentina'     => 'es',
-        //    'Spain'         => 'es',
-        //    'Chile'         => 'es',
-        //    'Austria'       => 'de',
-        //    'Luxembourg'    => 'de',
-        //    'Belgium'       => 'de',
-        //    'Germany'       => 'de',
-        //];
-        //
-        //if (! empty($cookie)) {
-        //    App::setLocale($cookie);
-        //} else {
-        //    if (array_key_exists($visitorCountry, $supportedLanguages)) {
-        //        $preferredLang = $supportedLanguages[$visitorCountry];
-        //
-        //        App::setLocale($preferredLang);
-        //    } else {
-        //        App::setLocale('en');
-        //    }
-        //}
-    }
+    //public function boot()
+    //{
+    //    $cookie = Cookie::get('lang');
+    //    dd(\Crypt::decrypt($cookie, false));
+    //    $visitorIp = request()->ip();
+    //    $geo = \GeoIP::getLocation($visitorIp);
+    //
+    //    if (empty($cookie) || is_null($cookie)) {
+    //        LocaleCookie::setLanguageCookie('en');
+    //    }
+    //
+    //    if (is_null($geo)) {
+    //        if (! isset($cookie) && ! empty($cookie)) {
+    //            App::setLocale($cookie);
+    //
+    //            return;
+    //        }
+    //
+    //        App::setLocale(SupportedLocales::Default);
+    //    }
+    //
+    //    $visitorCountry = $geo['country'];
+    //
+    //    if (! empty($cookie)) {
+    //        App::setLocale($cookie);
+    //    } else {
+    //        if (array_key_exists($visitorCountry, SupportedLanguages::Languages)) {
+    //            $preferredLang = SupportedLanguages::Languages[$visitorCountry];
+    //
+    //            App::setLocale($preferredLang);
+    //        } else {
+    //            App::setLocale(SupportedLocales::Default);
+    //        }
+    //    }
+    //}
 }
-
-//English					en
-//Spanish					es
-//Chinese					zh
-//Hindustani				hi
-//Arabic					ar
-//Russian					ru
-//Portuguese				pt
-//French					fr
-//Dutch					    nl
-//Italian					it
-//Japanese				    ja
-//Korean					ko

@@ -6,11 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 use Laravel\Scout\Searchable;
 
 /**
- * App\Models\BaseModel.
+ * App\Models\BaseModel
  *
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\BaseModel newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\BaseModel newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\BaseModel query()
+ * @method static \Illuminate\Database\Eloquent\Builder|BaseModel newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|BaseModel newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|BaseModel query()
  * @mixin \Eloquent
  */
 class BaseModel extends Model

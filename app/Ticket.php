@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
- * App\Ticket.
+ * App\Ticket
  *
  * @property int $id
  * @property string $ticket_number
@@ -17,20 +17,20 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \App\Models\Roles\User $owner
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Ticket newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Ticket newQuery()
- * @method static \Illuminate\Database\Query\Builder|\App\Ticket onlyTrashed()
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Ticket query()
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Ticket whereBody($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Ticket whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Ticket whereDeletedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Ticket whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Ticket whereOwnerId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Ticket whereSubject($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Ticket whereTicketNumber($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Ticket whereUpdatedAt($value)
- * @method static \Illuminate\Database\Query\Builder|\App\Ticket withTrashed()
- * @method static \Illuminate\Database\Query\Builder|\App\Ticket withoutTrashed()
+ * @method static \Illuminate\Database\Eloquent\Builder|Ticket newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Ticket newQuery()
+ * @method static \Illuminate\Database\Query\Builder|Ticket onlyTrashed()
+ * @method static \Illuminate\Database\Eloquent\Builder|Ticket query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Ticket whereBody($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Ticket whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Ticket whereDeletedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Ticket whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Ticket whereOwnerId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Ticket whereSubject($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Ticket whereTicketNumber($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Ticket whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Query\Builder|Ticket withTrashed()
+ * @method static \Illuminate\Database\Query\Builder|Ticket withoutTrashed()
  * @mixin \Eloquent
  */
 class Ticket extends Model

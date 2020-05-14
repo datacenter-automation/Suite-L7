@@ -5,7 +5,6 @@ namespace Tests\Feature\Http\Controllers\Api;
 use App\Comment;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
-use JMac\Testing\Traits\HttpTestAssertions;
 use Tests\TestCase;
 
 /**
@@ -13,19 +12,8 @@ use Tests\TestCase;
  */
 class CommentControllerTest extends TestCase
 {
-    use HttpTestAssertions, RefreshDatabase, WithFaker;
 
-    /**
-     * @test
-     */
-    public function store_uses_form_request_validation()
-    {
-        $this->assertActionUsesFormRequest(
-            \App\Http\Controllers\Api\CommentController::class,
-            'store',
-            \App\Http\Requests\CommentStoreRequest::class
-        );
-    }
+    use RefreshDatabase, WithFaker;
 
     /**
      * @test
@@ -37,13 +25,10 @@ class CommentControllerTest extends TestCase
 
         $response = $this->post(route('comment.store'), [
             'ticket_id' => $ticket_id,
-            'body' => $body,
+            'body'      => $body,
         ]);
 
-        $comments = Comment::query()
-            ->where('ticket_id', $ticket_id)
-            ->where('body', $body)
-            ->get();
+        $comments = Comment::query()->where('ticket_id', $ticket_id)->where('body', $body)->get();
         $this->assertCount(1, $comments);
         $comment = $comments->first();
 

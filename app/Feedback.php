@@ -5,7 +5,7 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * App\Feedback.
+ * App\Feedback
  *
  * @property int $id
  * @property int $ticket_id
@@ -16,16 +16,16 @@ use Illuminate\Database\Eloquent\Model;
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \App\Models\Roles\User $owner
  * @property-read \App\Ticket $ticket
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Feedback newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Feedback newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Feedback query()
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Feedback whereBody($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Feedback whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Feedback whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Feedback whereOwnerId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Feedback whereStars($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Feedback whereTicketId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\Feedback whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Feedback newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Feedback newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Feedback query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Feedback whereBody($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Feedback whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Feedback whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Feedback whereOwnerId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Feedback whereStars($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Feedback whereTicketId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Feedback whereUpdatedAt($value)
  * @mixin \Eloquent
  */
 class Feedback extends Model
