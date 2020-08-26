@@ -4,7 +4,6 @@ namespace App\General;
 
 class SupportedLocales
 {
-
     public const Locales = [
         'ar',
         'de',

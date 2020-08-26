@@ -11,7 +11,6 @@ use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
-
     use LocaleCookie;
 
     /**
@@ -24,7 +23,7 @@ class AppServiceProvider extends ServiceProvider
         //
     }
 
-    /**
+    /*
      * Bootstrap any application services.
      *
      * @return void

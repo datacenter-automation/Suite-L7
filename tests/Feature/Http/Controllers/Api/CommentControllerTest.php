@@ -12,7 +12,6 @@ use Tests\TestCase;
  */
 class CommentControllerTest extends TestCase
 {
-
     use RefreshDatabase, WithFaker;
 
     /**

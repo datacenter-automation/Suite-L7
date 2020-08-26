@@ -10,7 +10,7 @@ use Laravel\Cashier\Billable;
 use Laravel\Scout\Searchable;
 
 /**
- * App\Models\Roles\BaseUser
+ * App\Models\Roles\BaseUser.
  *
  * @property-read string $is_locked
  * @property-read \Illuminate\Notifications\DatabaseNotificationCollection|\Illuminate\Notifications\DatabaseNotification[] $notifications
@@ -29,7 +29,6 @@ use Laravel\Scout\Searchable;
  */
 class BaseUser extends Authenticatable
 {
-
     use Billable, Notifiable, PasswordHistoryTrait, Searchable, SoftDeletes;
 
     /**
@@ -100,7 +99,7 @@ class BaseUser extends Authenticatable
      */
     public function searchableAs()
     {
-        return $this->getTable() . '_index';
+        return $this->getTable().'_index';
     }
 
     /**

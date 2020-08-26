@@ -6,7 +6,6 @@ use Cookie;
 
 trait LocaleCookie
 {
-
     /**
      * @var int
      */

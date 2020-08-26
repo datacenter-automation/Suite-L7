@@ -12,7 +12,6 @@ use Tests\TestCase;
  */
 class FeedbackControllerTest extends TestCase
 {
-
     use RefreshDatabase, WithFaker;
 
     /**

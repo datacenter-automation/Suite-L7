@@ -5,7 +5,7 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * App\Note
+ * App\Note.
  *
  * @property int $id
  * @property int $ticket_id

@@ -4,7 +4,6 @@ namespace App\General;
 
 class SupportedLanguages
 {
-
     public const Languages = [
             'Algeria'              => 'ar',
             'Argentina'            => 'es',

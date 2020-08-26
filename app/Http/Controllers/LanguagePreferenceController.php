@@ -9,7 +9,6 @@ use Illuminate\Http\RedirectResponse;
 
 class LanguagePreferenceController extends Controller
 {
-
     use LocaleCookie;
 
     /**
@@ -44,4 +43,3 @@ class LanguagePreferenceController extends Controller
         }
     }
 }
-

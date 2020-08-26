@@ -5,7 +5,7 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * App\Comment
+ * App\Comment.
  *
  * @property int $id
  * @property int $ticket_id
