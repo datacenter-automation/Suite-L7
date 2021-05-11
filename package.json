@@ -65,7 +65,7 @@
         "laravel-mix-tailwind": "^0.1.0",
         "laravel-mix-vue-auto-routing": "^0.1.2",
         "laravel-mix-workbox": "^0.1.2",
-        "lodash": "^4.17.20",
+        "lodash": "^4.17.21",
         "mocha": "^7.2.0",
         "mocha-webpack": "^1.1.0",
         "moxios": "^0.4.0",
