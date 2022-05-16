@@ -123,7 +123,7 @@
         "laravel-echo": "^1.8.1",
         "lozad": "^1.15.0",
         "material-design-iconic-font": "^2.2.0",
-        "moment": "^2.27.0",
+        "moment": "^2.29.2",
         "octicons": "^8.5.0",
         "overlayscrollbars": "^1.13.0",
         "portal-vue": "^2.1.7",
