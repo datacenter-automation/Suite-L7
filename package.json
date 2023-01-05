@@ -60,7 +60,7 @@
         "laravel-mix-prerender": "0.1.1",
         "laravel-mix-purgecss": "^4.2.0",
         "laravel-mix-remove-flow-types": "^1.0.2",
-        "laravel-mix-svg-sprite": "^1.0.1",
+        "laravel-mix-svg-sprite": "^1.0.2",
         "laravel-mix-svg-vue": "^0.2.6",
         "laravel-mix-tailwind": "^0.1.0",
         "laravel-mix-vue-auto-routing": "^0.1.2",
